@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Iceland</title>
+</head>
+    <div id="mySidenavi" class="sidenavi">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="discover.html">Discover</a>
+            <a href="goals.html">Goals</a>
+    </div>
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    
+    <script>
+        function openNav() {
+            document.getElementById("mySidenavi").style.width = "250px";
+        }
+        function closeNav() {
+            document.getElementById("mySidenavi").style.width = "0";
+        }
+    
+    </script>
+    <main>
+    <div class="carousel">
+        <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+                checked="checked" />
+            <div class="carousel-item">
+                <div class="overlay">
+                    <h2 class="text">Start your journey now</h2>
+                    <img style="width: 100%" src="img/hero1.jpg" alt="heroimg" />
+                </div>
+            </div>
+
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="" />
+            <div class="carousel-item">
+                <div class="overlay">
+                    <h2 class="text">Start your journey now</h2>
+                    <img style="width: 100%" src="img/hero2.jpg" alt="heroimg" />
+                </div>
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="" />
+            <div class="carousel-item">
+                <div class="overlay">
+                    <h2 class="text">Start your journey now</h2>
+                    <img style="width: 100%" src="img/hero3.jpg" alt="heroimg" />
+                </div>
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="" />
+            <div class="carousel-item">
+                <div class="overlay">
+                    <h2 class="text">Start your journey now</h2>
+                    <img style="width: 100%" src="img/hero4.jpg" alt="heroimg" />
+                </div>
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="" />
+            <div class="carousel-item">
+                <div class="overlay">
+                    <h2 class="text">Start your journey now</h2>
+                    <img style="width: 100%" src="img/hero5.jpg" alt="heroimg" />
+                </div>
+            </div>
+            <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+            <label for="carousel-2" class="carousel-control next control-1">›</label>
+            <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+            <label for="carousel-3" class="carousel-control next control-2">›</label>
+            <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-4" class="carousel-control next control-3">›</label>
+            <label for="carousel-3" class="carousel-control prev control-4">‹</label>
+            <label for="carousel-5" class="carousel-control next control-4">›</label>
+            <label for="carousel-4" class="carousel-control prev control-5">‹</label>
+            <label for="carousel-1" class="carousel-control next control-5">›</label>
+            <ol class="carousel-indicators">
+                <li>
+                    <label for="carousel-1" class="carousel-bullet">•</label>
+                </li>
+
+                <li>
+                    <label for="carousel-2" class="carousel-bullet">•</label>
+                </li>
+
+                <li>
+                    <label for="carousel-3" class="carousel-bullet">•</label>
+                </li>
+
+                <li>
+                    <label for="carousel-4" class="carousel-bullet">•</label>
+                </li>
+
+                <li>
+                    <label for="carousel-5" class="carousel-bullet">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+</main>
+
+<body>
+
+</body>
